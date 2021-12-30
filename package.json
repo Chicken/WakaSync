@@ -1,0 +1,17 @@
+{
+  "name": "wakasync",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Antti <antti@antti.codes>",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+      "start": "node -r dotenv/config --es-module-specifier-resolution=node ."
+  },
+  "dependencies": {
+      "bent": "^7.3.12",
+      "dotenv": "^10.0.0",
+      "mariadb": "^2.5.5"
+  }
+}
