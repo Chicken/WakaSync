@@ -1,0 +1,8 @@
+services:
+  sync:
+    image: node:20
+    restart: no
+    command: node index.js
+    working_dir: /app
+    volumes:
+      - "./:/app"
